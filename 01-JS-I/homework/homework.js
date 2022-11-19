@@ -10,10 +10,10 @@ const nuevoNum = 10;
 const nuevoBool = false;
 
 // Resuelve el siguiente problema matemático:
-const nuevaResta = 10 - 5 === 5;
+const nuevaResta = (10 - 5 === 5);
 
 // Resuelve el siguiente problema matemático:
-const nuevaMultiplicacion = 10 * 4 === 40 ;
+const nuevaMultiplicacion = (10 * 4 === 40) ;
 
 // Resuelve el siguiente problema matemático:
 const nuevoModulo = 21 % 5 === 1;
@@ -21,11 +21,12 @@ const nuevoModulo = 21 % 5 === 1;
 // No modificar nada debajo de esta línea
 // --------------------------------
 
-module.exports = {
-  nuevaString,
-  nuevoNum,
-  nuevoBool,
-  nuevaResta,
-  nuevaMultiplicacion,
-  nuevoModulo,
-};
+lista={nuevaString,nuevoNum,nuevoBool,nuevaResta,nuevaMultiplicacion, nuevoModulo};
+
+console.log(lista);
+
+module.exports = lista;
+
+
+
+
